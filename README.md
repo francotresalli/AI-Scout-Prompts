@@ -1,39 +1,65 @@
-# AI-Scout-Prompts
+Proyecto Final: IA Aplicada al Scouting de Fútbol
 
-1. Nombre del proyecto: AI Scout: Generación de Prompts para Análisis de Jugadores de Fútbol.
-   
-2. Problema a abordar:
-Falta de herramientas accesibles para analizar el rendimiento de jugadores en equipos amateur.
-Los métodos actuales son costosos y requieren conocimiento técnico avanzado.
-3. Relevancia de la solución:
-Permite a entrenadores y scouts generar informes y representaciones visuales de jugadores de forma rápida.
-Democratiza el acceso al análisis de rendimiento en fútbol.
+Resumen
 
-4. Desarrollo de la propuesta de solución
-Uso de modelos de IA para generar descripciones detalladas y representaciones visuales de jugadores.
-Implementación de Fast Prompting para mejorar la calidad de los resultados.
+Este proyecto explora el uso de inteligencia artificial para la generación de informes de scouting en fútbol, combinando modelos de texto-texto y texto-imagen. Mediante técnicas de fast prompting, se optimiza la creación de reportes detallados sobre jugadores, facilitando el análisis de talento y la identificación de futuras promesas deportivas.
 
-5. Justificación de la viabilidad del proyecto
-Factible: Utiliza APIs y modelos preentrenados accesibles como GPT-4 y DALL·E.
-Escalabilidad: Puede integrarse en plataformas de scouting o análisis deportivo.
-Recursos necesarios: Computadora con acceso a internet, cuenta en OpenAI o modelos open-source.
+Introducción
 
-6. Objetivos
-✅ Generar reportes de jugadores a partir de estadísticas.
-✅ Crear imágenes representativas de jugadores con base en descripciones textuales.
-✅ Optimizar la precisión de los prompts mediante técnicas de Fast Prompting.
+Nombre del proyecto: IA Aplicada al Scouting de Fútbol
 
-7. Metodología
-Definir prompts iniciales y evaluar resultados.
-Aplicar técnicas de Fast Prompting para mejorar la calidad.
-Comparar outputs y documentar mejoras.
+Problema a abordar
 
-8. Herramientas y Tecnologías
-   
-Lenguaje: Python
+El scouting de jugadores de fútbol requiere análisis detallado de habilidades técnicas, físicas y tácticas, lo que implica una gran inversión de tiempo y recursos. Muchas academias y clubes no cuentan con herramientas automatizadas para generar informes estructurados de jugadores.
 
-Jupyter Notebook
+Propuesta de solución
 
-APIs: OpenAI GPT-4, DALL·E
+Este proyecto emplea IA generativa para automatizar la creación de informes de scouting y la generación de imágenes representativas de los jugadores, mejorando la precisión y eficiencia en la detección de talentos.
 
-Bibliotecas: openai, requests, matplotlib, pandas
+Justificación de la viabilidad
+
+La solución se basa en herramientas accesibles como OpenAI para la generación de texto e imágenes mediante alternativas gratuitas como NightCafe, garantizando una implementación sin altos costos.
+
+Objetivos
+
+Desarrollar prompts optimizados para la generación de informes de scouting de jugadores.
+
+Crear imágenes representativas de los jugadores basadas en descripciones técnicas.
+
+Evaluar la optimización de los resultados mediante fast prompting.
+
+Implementar una prueba de concepto (PoC) en Jupyter Notebook.
+
+Metodología
+
+Se utilizarán prompts estructurados para generar descripciones detalladas de jugadores, aplicando técnicas de fast prompting para optimizar la calidad de los informes y las imágenes generadas.
+
+Herramientas y Tecnologías
+
+OpenAI (ChatGPT para generación de informes)
+
+NightCafe u otras herramientas gratuitas para generación de imágenes
+
+Jupyter Notebook para implementación y análisis
+
+Python y librerías como OpenAI, PIL y requests
+
+Implementación
+
+Se desarrollará una notebook con ejemplos de prompts para la generación de informes de jugadores y sus imágenes correspondientes. Se incluirán variaciones de prompts para evaluar mejoras en la precisión de los resultados.
+
+Resultados
+
+Se evaluará la calidad de los informes generados y la fidelidad de las imágenes en relación con las descripciones ingresadas, comparando diferentes estrategias de prompting.
+
+Conclusiones
+
+El uso de fast prompting mejora la calidad de los informes de scouting generados por IA, facilitando el análisis de talento de manera eficiente y automatizada.
+
+Referencias
+
+OpenAI API Documentation
+
+Repositorio de herramientas IA Coderhouse
+
+Recursos de generación de prompts aplicados al scouting
